@@ -8,10 +8,9 @@ function registerAllButtons()
   const newsBnt = document.getElementById("js-news");
   newsBnt.addEventListener("click", function()
   {
-    if(window.location.href !== "/backend.html")
+    if(window.location.href !== "/")
     {
-      window.location.href = "/backend.html"
-
+      window.location.href = "/"
     }
 
   })
