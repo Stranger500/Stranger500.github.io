@@ -1,0 +1,56 @@
+body{
+  height:1000px;
+}
+
+.container-feed{
+  margin: 0px;
+}
+
+/*Here you can manage the informational text*/
+.info.feed{
+  margin-top: 0px;
+}
+
+.relation-text{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+
+}
+
+/*Handels the design of the boxes*/
+.content-boxes{
+  justify-content: center; 
+
+  margin-top: 10px;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-bottom: 50px;
+  
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+}
+
+.title-data{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: black; 
+}
+
+.paragraph-text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: black;
+}

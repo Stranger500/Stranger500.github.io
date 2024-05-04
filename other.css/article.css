@@ -1,0 +1,79 @@
+body{
+  height: 2000px;
+}
+
+/*Here you manage the actual page in general*/
+.article-manager{
+  padding: 0px;
+}
+
+.topic{
+  background: linear-gradient(195deg, #030321, #87898e);
+  height: 400px;
+  display: flex;
+
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  left: 0px;
+  right: 0px;
+}
+
+.topic-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+
+  display: flex; 
+  margin-top: 170px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.art-box{
+  margin-top: 40px;
+}
+
+.art-data{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(80, 79, 79);
+  font-style: italic;
+  
+  text-align: right;
+  margin-right: 60px;
+}
+
+.art-content{
+  margin-left: 200px;
+  margin-right: 200px; 
+}
+
+.subtitle{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+
+  margin-top: 100px;
+}
+
+.art-text{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;
+
+  margin-left: 40px;
+  display: flex;
+}
+
+img{
+  border-radius: 40px;
+  height: 500px;
+
+  margin-top: 80px;
+  display: flex;
+  margin-left: 100px;
+}
