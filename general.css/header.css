@@ -9,7 +9,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  z-index: 1000;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -79,6 +79,13 @@ body{
 .branding-ix {
   animation: colorShift 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
   background: linear-gradient(195deg, #162184, #020a59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.branding-ix-light {
+  animation: colorShift 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  background: linear-gradient(195deg, #5663dc, #aeb4eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
