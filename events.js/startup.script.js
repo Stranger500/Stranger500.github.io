@@ -18,7 +18,7 @@ function registerAllButtons()
   const chlBnt = document.getElementById("js-chanellog");
   chlBnt.addEventListener("click", function()
   {
-    if(window.location.href !== "/chanel-log.htm")
+    if(window.location.href !== "/chanel-log.html")
     {
       window.location.href = "/chanel-log.html"
 
@@ -28,7 +28,7 @@ function registerAllButtons()
   const aboutusBnt = document.getElementById("js-about-us");
   aboutusBnt.addEventListener("click", function()
   {
-    if(window.location.href !== "/aboutus.htm")
+    if(window.location.href !== "/aboutus.html")
     {
       window.location.href = "/aboutus.html"
 

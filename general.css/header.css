@@ -1,4 +1,8 @@
-/*Manage the header setting all in one*/
+body{
+
+}
+
+
 .header{
   height: 56px;
 
@@ -12,29 +16,29 @@
   right: 0px;
 
   background-color: rgb(255, 255, 255);
-  color: blacK;
+  color: rgb(28, 28, 28);
 
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-bottom-color: rgba(220, 218, 218, 0.616);
+  background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    box-decoration-break: 0 4px 4px rgba(0, 0, 0, 0.4) !important; /* Schatten */
+    border-bottom: 1px solid #eee; /* Unterstrich */
 }
 
 
 /*Includes the Logotype and the text*/
 .container{
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: start;
 }
 
-/*Logotext*/
 .logo-text{
   font-size: 17px;
-  font-family: Arial;
+  /* font-family: Arial; */
   font-weight: bold;
-
-  margin-left: 160px;
-  margin-top: 18px; 
+  /* margin-left: 20px; */
+  margin-top: 13.5px;
 }
 
 /*SwapiX Logotype*/
@@ -55,7 +59,7 @@
   font-weight: bold;
   color: black;
   border: none;
-  background-color: white;
+  background-color: transparent;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -70,6 +74,13 @@
   margin-right: 20px;
   transition: all 0.3s ease;
 
+}
+
+.branding-ix {
+  animation: colorShift 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  background: linear-gradient(195deg, #162184, #020a59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .button:hover{
@@ -92,9 +103,10 @@
 
 /*special setting for join button*/
 .join-button{
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-weight: bold;
-  background-color: rgb(18, 18, 18);
-  color:white;
+  color: var(--c-blue-500);
+  background-color: #eaf1ff;
   border: 1px;
   border-radius: 5px;
   text-align: center;
